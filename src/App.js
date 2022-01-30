@@ -43,7 +43,7 @@ function App() {
     <Router>
       <Header /> 
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="/" element={<Home />} exact/>
         <Route path="/checkout" element={<Checkout />}/>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/checkout/payment" element={  <Payment /> }></Route>
